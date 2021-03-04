@@ -5,10 +5,7 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+
 <form action="<%=request.getContextPath()%>/hello-servlet" method="post">
     <input type="text" name="blocksize" placeholder="block1">
     <input type="number" name="block2" placeholder="block2">
