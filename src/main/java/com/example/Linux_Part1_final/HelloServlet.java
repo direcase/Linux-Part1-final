@@ -52,7 +52,7 @@ public class HelloServlet extends HttpServlet {
         out.println("<h1>" + a + "</h1>");
         out.println("</body></html>");*/
         request.setAttribute("bestFits", bestFits);
-        request.getRequestDispatcher("result.jsp").forward(request,response);
+        request.getRequestDispatcher("index.jsp").forward(request,response);
     }
 
     private List<BestFit> bestFit(int blockSize[], int m, int processSize[], int n) {
