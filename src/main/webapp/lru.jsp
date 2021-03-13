@@ -13,7 +13,7 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class=" bg-yellow-200 ">
 <section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
         <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
